@@ -18,12 +18,18 @@ Start the AspectDemoApplication.
 
 ## API
 **GET /files/download** - download the parameterized number of files from the designated website.
-**GET /files/getAllFilesSize** - return the list of all files in memory
-**GET /files/saveFileAsync?name={fileName}** - write file asynchronously
-**GET /files/saveFileSync?name={fileName}** - write file synchronously
-**GET /files/getFileByName?name={fileName}** - get file details by the given name
+
+**GET /files/getAllFilesSize** - return the list of all files in memory.
+
+**GET /files/saveFileAsync?name={fileName}** - write file asynchronously.
+
+**GET /files/saveFileSync?name={fileName}** - write file synchronously.
+
+**GET /files/getFileByName?name={fileName}** - get file details by the given name.
+
 
 **GET /tracker/getAllByType?type={type}** - return the list of files written to DB with one of given types: SYNC or ASYNC
+
 **GET /tracker/getFastestExecutionForType?type={type}** - return the longest execution for method with the given {type}: SYNC or ASYNC
 
 ## Properties
